@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟placeholder</title>
+    <style>
+        input,textarea{padding:5px;}
+    </style>
+</head>
+<body>
+    <div>
+        <label for="in">这是一个普通文本框：</label>
+        <input id="in" type="text" name="name" value="" placeholder="提示性语句">
+    </div>
+    <br/>
+    <div>
+        <label for="in">这是一个密码文本框：</label>
+        <input id="in" type="password" name="name" value="" placeholder="提示性语句">
+    </div>
+    <br/>
+    <div>
+        <label for="txt" >这是一个文本域：</label>
+        <textarea id="txt" name="name" rows="8" cols="40" placeholder="这里是提示性语句"></textarea>
+    </div>
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="js/placeholder.js"></script>
+    <script>
+        $(function(){
+            ph.placeholder();
+        })
+    </script>
+</body>
+</html>
