@@ -8,4 +8,4 @@
 Textarea会随着输入文字的行数增加而自动增加高度，保证不出现滚动条。兼容IE8+,谷歌，火狐
 </br></br>
 <h3>模拟placeholder</h3>
-用于低版本不支持placeholder属性的浏览器上正常显示placeholder文字。例如万恶的IE8-9。支持passwor密码文本框。
+用于低版本不支持placeholder属性的浏览器上正常显示placeholder文字。例如万恶的IE8-9。支持password密码文本框。
